@@ -159,14 +159,19 @@ input {
 }
 
 .wrapper .box-item2 .course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0 auto;
   width: 7.14667rem;
   overflow: hidden;
 }
 
 .wrapper .box-item2 .course li {
-  float: left;
-  margin-right: 0.16rem;
   margin-bottom: 0.608rem;
   width: 2.24rem;
   height: 3.36rem;
@@ -202,10 +207,6 @@ input {
   text-align: center;
   line-height: 0.45867rem;
   border-radius: 0.32rem;
-}
-
-.wrapper .box-item2 .course li:nth-child(3n) {
-  margin-right: 0;
 }
 
 .wrapper .box-item2 .course .course-item1, .wrapper .box-item2 .course .course-item2, .wrapper .box-item2 .course .course-item3 {

@@ -152,12 +152,13 @@ input {
         overflow: hidden;
         @include topTitle;
         .course {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
             margin: 0 auto;
             width: pxTorem(670);
             overflow: hidden;
             li {
-                float: left;
-                margin-right: pxTorem(15);
                 margin-bottom: pxTorem(57);
                 width: pxTorem(210);
                 height: pxTorem(315);
@@ -191,9 +192,9 @@ input {
                     border-radius: pxTorem(30);
                 }
             }
-            li:nth-child(3n) {
-                margin-right: 0;
-            }
+            // li:nth-child(3n) {
+            //     margin-right: 0;
+            // }
             .course-item1, .course-item2, .course-item3 {
                 margin-top: pxTorem(30);
             }
