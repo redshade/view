@@ -45,8 +45,9 @@ input {
 }
 
 .wrapper .nav-content {
-  padding-left: 0.48rem;
+  margin: 0 auto;
   height: 100%;
+  width: 6.4rem;
   overflow: hidden;
 }
 
@@ -63,7 +64,6 @@ input {
 
 .wrapper .nav-content ul {
   float: left;
-  width: 6.186667rem;
   height: 100%;
   margin-left: 0.533333rem;
 }

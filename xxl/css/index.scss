@@ -82,8 +82,9 @@ input {
     }
 
     .nav-content {
-        padding-left: 0.48rem;
+        margin: 0 auto;
         height: 100%;
+        width: pxTorem(600);
         overflow: hidden;
     }
     .nav-content .home {
@@ -98,7 +99,6 @@ input {
     }
     .nav-content ul {
         float: left;
-        width: 6.186667rem;
         height: 100%;
         margin-left: 0.533333rem;
     }
