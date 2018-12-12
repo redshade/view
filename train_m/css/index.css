@@ -559,10 +559,49 @@ input {
   color: #b20a19;
 }
 
-.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item .detail p {
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item .detail p, .wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item .detail table {
   font-size: 0.22rem;
   color: #333;
-  line-height: 0.42rem;
+  line-height: 0.41rem;
+}
+
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item .detail table {
+  display: block;
+  margin: 0 auto;
+  width: 4.65rem;
+}
+
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item .detail table tr td {
+  vertical-align: top;
+}
+
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item4 .detail table:nth-child(2) tr td:nth-child(2) {
+  width: 1.75rem;
+}
+
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item4 .detail table:nth-child(2) tr td:nth-child(4) {
+  width: 1.35rem;
+}
+
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item6 .detail table:nth-child(2) tr td:nth-child(2) {
+  width: 1.8rem;
+}
+
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item6 .detail table:nth-child(2) tr td:nth-child(4) {
+  width: 2.3rem;
+}
+
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item7 .detail table:nth-child(2) {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item7 .detail table:nth-child(2) tr td:nth-child(2) {
+  width: 1.8rem;
+}
+
+.wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide .item7 .detail table:nth-child(2) tr td:nth-child(4) {
+  width: 2.3rem;
 }
 
 .wrapper .box-item4 .step-swiper-container .swiper-wrapper .swiper-slide-active {
@@ -883,6 +922,7 @@ input {
   background: url(../imgs/question-bg.jpg) center no-repeat;
   background-size: 100%;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .wrapper .box-item8 .title {

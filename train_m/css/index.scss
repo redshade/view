@@ -464,10 +464,60 @@ input {
                                 font-weight: normal;
                                 color: $red;
                             }
-                            p {
+                            p,table {
                                 font-size: pxTorem(22);
                                 color: #333;
-                                line-height: pxTorem(42);
+                                line-height: pxTorem(41);
+                            }
+                            table {
+                                display: block;
+                                margin: 0 auto;
+                                width: pxTorem(465);
+                            }
+                            table tr {
+                                td {
+                                    vertical-align: top;
+                                }
+                            }
+                        }
+                    }
+                    .item4 {
+                        .detail {
+                            table:nth-child(2) tr {
+                                td:nth-child(2) {
+                                    width: pxTorem(175);
+                                }
+                                td:nth-child(4) {
+                                    width: pxTorem(135);
+                                }
+                            }
+                        }
+                    }
+                    .item6 {
+                        .detail {
+                            table:nth-child(2) tr {
+                                td:nth-child(2) {
+                                    width: pxTorem(180);
+                                }
+                                td:nth-child(4) {
+                                    width: pxTorem(230);
+                                }
+                            }
+                        }
+                    }
+                    .item7 {
+                        .detail {
+                            table:nth-child(2) {
+                                width: 100%;
+                                white-space: nowrap;
+                                tr {
+                                    td:nth-child(2) {
+                                        width: pxTorem(180);
+                                    }
+                                    td:nth-child(4) {
+                                        width: pxTorem(230);
+                                    }
+                                }
                             }
                         }
                     }
@@ -720,6 +770,7 @@ input {
         background: url(../imgs/question-bg.jpg) center no-repeat;
         background-size: 100%;
         text-align: center;
+        padding-bottom: pxTorem(100);
         .title {
             margin-top: pxTorem(100);
             font-size: pxTorem(36);
